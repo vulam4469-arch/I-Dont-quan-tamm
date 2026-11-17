@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Love You So</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #080808;
+      overflow: hidden;
+      font-family: "Times New Roman", serif;
+    }
+
+    .text {
+      color: white;
+      font-size: 90px;
+      letter-spacing: 5px;
+      text-shadow: 0 0 30px rgba(255,255,255,0.3);
+      animation: appear 3s ease;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: translateY(25px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="text">I LOVE YOU </div>
+
+</body>
+</html>
